@@ -7,11 +7,22 @@ body {
 
 }
  .header {
-    border-bottom: 3px solid rgb(242, 239, 237);
+    border-bottom: 4px solid rgb(242, 239, 237);
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
+
+ .header a {
+   color:rgb(74, 60, 60);
+   font-size:25px;
+   transition: 1s;
+ }
+
+.header a:hover {
+   color: rgb(242,239,237)
+   
+}
 
  .books {
     width: 90%;
@@ -23,6 +34,7 @@ body {
     justify-content: space-evenly;
     
  }
+
 
 
 
