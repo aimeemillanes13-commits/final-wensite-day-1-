@@ -4,6 +4,11 @@ body {
     color:rgb(74, 60, 60);
 }
 
+.h1{
+   text-align: center;
+   text-decoration: wavy;
+}
+
 .header a{
     color: rgb(11, 11, 11);
     background-color: rgb(74, 60, 60);
@@ -19,8 +24,7 @@ body {
     transition: 2s;
 }
 
-.online-book{
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.paper {
+    display:flex;
+    justify-content:space-between;
 }
